@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contactos</title>
+    <link rel="stylesheet" href="../css/contactos.css">
+</head>
+<body>
+    <header>
+        <center>
+            <h3>Información del cliente</h3>
+        </center>
+    </header>
+
+    <section>
+        <form action="https://formsubmit.co/wero87@gmail.com" method="post">
+            <label for="">Num. Cliente</label>
+            <input type="text" name="num cliente" id="numCliente"
+              placeholder="Escribe aquí tú número" required>
+
+            <label for="nombre">Nombre</label>
+            <input type="text" name="Nombre Cliente" id="nombreCliente"
+              placeholder="Escribe tú nombre aquí" required>
+
+            <label for="fecha">Fecha de nacimiento</label>
+            <input type="date" name="Fecha Nac." id="fecha">
+
+            <label for="genero">Género</label>
+            <div class="radio-group">
+                <input type="radio" name="Genero" id="Masculino">
+                <label for="">Masculino</label>
+
+                <input type="radio" name="Genero" id="Femenino">
+                <label for="">Femenino</label>
+                
+                <input type="radio" name="Genero" id="Otro">
+                <label for="">Otro</label>
+            </div>
+
+            <label for="">Estado Civil</label>
+            <select name="Estado Civ" id="estado">
+                <option value="disable selected">Selecciona una Opción</option>
+                <option value="soltero">Soltero(a)</option>
+                <option value="casado">Casado(a)</option>
+                <option value="divorciado">Divorciado(a)</option>
+                <option value="viudo">Viudo(a)</option>
+                <option value="union libre">Union Libre</option>
+            </select>
+
+            <label for="">Email</label>
+            <input type="email" name="email" id="email" required placeholder="ejemplo@aaa.com">
+
+            <label for="">Comentarios</label>
+            <textarea rows="4" name="comentarios" id="comentarios">
+            
+            </textarea>
+
+            <div class="buttom-group">
+                <button type="submit">Enviar</button>
+                <button type="reset">Limpiar</button>
+
+            </div>
+
+        </form>
+
+    </section>
+</body>
+</html>
